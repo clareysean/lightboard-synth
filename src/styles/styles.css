@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
   line-height: 1;
   color-scheme: light dark;
@@ -50,9 +50,12 @@ div {
   display: none;
 }
 
-.start-button {
+.start-msg {
   position: absolute;
   top: 30px;
   left: 30px;
   z-index: 2;
+  background-color: #242429;
+  padding: 1rem;
+  border-radius: 1rem;
 }
